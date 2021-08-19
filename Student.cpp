@@ -1,12 +1,16 @@
-#include "Student.h"
+#include "stu.h"
 #include <iostream>
-
+using namespace std;
 // Assign studentId and name
-Student::assignDetails() {
-  
+void Student::addignDetails() {
+  cout << "Enter Student ID Number : ";
+  cin >> studentId;
+  cout << "Enter Student Name : ";
+  cin >> name;
 }
 
 // Display StudentId and Name
-Student::display() {
-  
+void Student::display() {
+  cout << "Student ID is : " << studentId;
+  cout << "Student Nmae is : " << name;
 }
