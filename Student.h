@@ -1,10 +1,10 @@
 class Student {
   private:
     int studentId;
-    char name[20];
+    char sname[20];
   
   public:
-    void addignDetails();
+    void assignDetails(int id, char name[20]);
     void display();
 };
 
